@@ -1,4 +1,4 @@
-# Django Rest Framework File and Image Upload
+# Django Rest Framework File(s) and Image(s) Upload
 
 # Description
 This project shows how to upload image(s) and file(s) <br />
