@@ -1,15 +1,14 @@
-# drf-file-upload
-# Django Rest Framework File and Image Upload]
+# Django Rest Framework File and Image Upload
 
 # Description
 This project shows how to upload image(s) and file(s) <br />
 using API in Django (ie. using Django Rest Framework)
 
 ## Technology Stack
-Backend: Django, Django Rest Framework <br />\
+Backend: Django, Django Rest Framework <br />
 
 ## To run the project
-Prerequisits: Python3, virutalen
+Prerequisits: Python3, virutalenv
 
 1. Checkout the code
 2. Create virtual environment (virutalenv .env)
