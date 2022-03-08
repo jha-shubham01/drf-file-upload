@@ -10,7 +10,19 @@ class FileSerializer(serializers.ModelSerializer):
         fields = "__all__"
 
 
+class MultipleFileSerializer(serializers.Serializer):
+    files = serializers.ListField(
+        child=serializers.FileField()
+    )
+
+
 class ImageSerializer(serializers.ModelSerializer):
     class Meta:
         model = ImageModel
         fields = "__all__"
+
+
+class MultipleImageSerializer(serializers.Serializer):
+    images = serializers.ListField(
+        child=serializers.ImageField()
+    )
